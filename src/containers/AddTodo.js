@@ -22,7 +22,7 @@ let AddTodo = ({dispatch}) => {
             }}>
 
                 <p>Grid size</p>
-                <div style={{fontSize: 12}}>Enter data with spaces</div>
+                <div style={{fontSize: 12}}>Enter data with spaces (for example: 10 10 )</div>
                 <input ref={node => {
                     input1 = node
                 }}/>
