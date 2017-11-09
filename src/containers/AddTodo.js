@@ -39,13 +39,13 @@ let AddTodo = ({dispatch}) => {
                 <br/>
                 <h2>Robot 1</h2>
                 <p>Initial position</p>
-                <div style={{fontSize: 12}}>Enter data with spaces</div>
+                <div style={{fontSize: 12}}>Enter data with spaces (for example: 2 2 N)</div>
                 <input ref={node => {
                     input2 = node
                 }}/><br/>
 
                 <p>Instructions</p>
-                <div style={{fontSize: 12}}>Enter data without spaces</div>
+                <div style={{fontSize: 12}}>Enter data without spaces (for example RFFLFF)</div>
 
                 <input ref={node => {
                     input3 = node
@@ -53,13 +53,13 @@ let AddTodo = ({dispatch}) => {
 
                 <h2>Robot 2</h2>
                 <p>Initial position</p>
-                <div style={{fontSize: 12}}>Enter data with spaces</div>
+                <div style={{fontSize: 12}}>Enter data with spaces (for example: 2 2 N)</div>
                 <input ref={node => {
                     input4 = node
                 }}/><br/>
 
                 <p>Instructions</p>
-                <div style={{fontSize: 12}}>Enter data without spaces</div>
+                <div style={{fontSize: 12}}>Enter data without spaces (for example RFFLFF)</div>
                 <input ref={node => {
                     input5 = node
                 }}/><br/>
